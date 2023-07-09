@@ -37,6 +37,10 @@ p {
   font-weight: 400;
 }
 
+img {
+  max-width: 100%;
+}
+
 .container {
   max-width: 1128px;
   margin: 0 auto;
@@ -83,7 +87,7 @@ p {
 
 .section__sec--text {
   display: flex;
-  gap: 6em;
+  gap: 6rem;
 }
 
 .section__third {
@@ -93,13 +97,13 @@ p {
 
 .section__third--header {
   color: var(--white-color);
-  width: 60%;
+  width: 50%;
 }
 
 .wrap-section-third {
   display: flex;
   flex-direction: row;
-  gap: 6em;
+  gap: 6rem;
 }
 
 .section__third--h2 {
@@ -108,4 +112,20 @@ p {
 
 .section__four {
   background-color: var(--second-color);
+  padding: 10em 15em;
+}
+
+.wrap-section-four {
+  display: flex;
+  flex-direction: row;
+  gap: 6rem;
+}
+
+.section__four--h2 {
+  margin-bottom: 1em;
+}
+
+.section__four--header {
+  color: var(--white-color);
+  width: 50%;
 }
