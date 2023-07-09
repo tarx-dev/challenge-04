@@ -1,0 +1,95 @@
+html {
+  --primary-color: #f3eed9;
+  --white-color: #fff;
+  --second-color: #824936;
+  --third-color: #222c2a;
+
+  font-size: 62.5%;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+h1 {
+  font-family: "Playfair Display", sans-serif;
+  font-size: 6rem;
+  font-weight: 800;
+}
+
+h2 {
+  font-family: "Playfair Display", sans-serif;
+  font-size: 3.6rem;
+  font-weight: 800;
+}
+
+h3 {
+  font-family: "Roboto", sans-serif;
+  font-size: 1.8rem;
+  font-weight: 300;
+}
+
+p {
+  font-family: "Roboto", sans-serif;
+  font-size: 2.1rem;
+  font-weight: 400;
+}
+
+.container {
+  max-width: 1128px;
+  margin: 0 auto;
+}
+
+.section__first {
+  background-color: var(--primary-color);
+  padding: 20em;
+}
+
+.section__first--header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.section__first--h3 {
+  text-transform: uppercase;
+  letter-spacing: 1rem;
+  margin-bottom: 1em;
+}
+
+.section__first--h1 {
+  text-align: center;
+  color: var(--second-color);
+}
+
+.section__sec {
+  background-color: var(--white-color);
+  padding: 10em;
+}
+
+.wrap-section-sec {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.section__sec--h2 {
+  margin-bottom: 1em;
+  color: var(--second-color);
+}
+
+.section__sec--text {
+  display: flex;
+  gap: 6em;
+}
+
+.section__third {
+  background-color: var(--third-color);
+  padding: 10em 15em;
+}
+.section__four {
+  background-color: var(--second-color);
+}
