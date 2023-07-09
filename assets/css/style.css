@@ -22,7 +22,7 @@ h1 {
 h2 {
   font-family: "Playfair Display", sans-serif;
   font-size: 3.6rem;
-  font-weight: 800;
+  font-weight: 700;
 }
 
 h3 {
@@ -90,6 +90,22 @@ p {
   background-color: var(--third-color);
   padding: 10em 15em;
 }
+
+.section__third--header {
+  color: var(--white-color);
+  width: 60%;
+}
+
+.wrap-section-third {
+  display: flex;
+  flex-direction: row;
+  gap: 6em;
+}
+
+.section__third--h2 {
+  margin-bottom: 1em;
+}
+
 .section__four {
   background-color: var(--second-color);
 }
